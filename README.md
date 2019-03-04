@@ -8,8 +8,6 @@ php composer.phar require diszz/yii2-chinesepinyin *
 或
 composer require diszz/yii2-chinesepinyin *
 
-2.下载文件包, 
-在vendor文件夹下新建文件夹 diszz, 解压后复制 yii2-chinesepinyin 到 diszz 文件夹下
 
 
 # 代码中使用

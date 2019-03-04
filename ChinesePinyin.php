@@ -1,14 +1,6 @@
 <?php
-/**
-*
-* 汉字转拼音类
-* @Author : Kin
-* @Date   : 2014-03-16
-* @Email  : Mr.kin@foxmail.com
-*
-*/
-namespace Org\Util;
-define('PINYIN_ROOT', dirname(__FILE__));
+namespace diszz\chinesepinyin;
+
 class ChinesePinyin{
 	
 	//utf-8中国汉字集合
@@ -18,7 +10,7 @@ class ChinesePinyin{
 	
 	public function __construct(){
 		if( empty($this->ChineseCharacters) ){
-		  $this->ChineseCharacters = file_get_contents(PINYIN_ROOT.'/Pinyin/ChineseCharacters.dat');	
+		  $this->ChineseCharacters = file_get_contents(__DIR__.'/Pinyin/ChineseCharacters.dat');	
 		}
 	}
 	
