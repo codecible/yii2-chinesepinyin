@@ -4,10 +4,11 @@ yii2版, 可以把汉子转为拼音
 # 安装方法
 
 1.命令安装
-php composer.phar require diszz/yii2-chinesepinyin *
+``` php
+php composer.phar require diszz/yii2-chinesepinyin
 或
-composer require diszz/yii2-chinesepinyin *
-
+composer require diszz/yii2-chinesepinyin
+```
 
 
 # 代码中使用
