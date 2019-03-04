@@ -15,17 +15,30 @@ composer require diszz/yii2-chinesepinyin
 
 ``` php
 $Pinyin = new ChinesePinyin();
-echo '带声调的汉语拼音';
-echo $Pinyin->TransformWithTone("带声调的汉语拼音");
+$str = '带声调的汉语拼音';
+$ret = $Pinyin->TransformWithTone($str);
+var_dump($ret);
+
 echo '<br/>';
-echo '无声调的汉语拼音';
-echo $Pinyin->TransformWithoutTone("无声调的汉语拼音");
+$str = '无声调的汉语拼音,凡芃团队';
+$ret = $Pinyin->TransformWithoutTone($str);
+var_dump($ret);
+
 echo '<br/>';
-echo '首字母只包括汉字BuHanPinYin';   
-echo $Pinyin->TransformUcwordsOnlyChar("首字母只包括汉字BuHanPinYin");
-echo '<br/>';      
-echo '首字母和其他字符如B区32号'; 
-echo $Pinyin->TransformUcwords("首字母和其他字符如B区32号");
+$str = '首字母只包括汉字BuHanPinYin';
+$ret = $Pinyin->TransformUcwordsOnlyChar($str);
+var_dump($ret);
+
+echo '<br/>';
+$str = '首字母和其他字符如B区32号';
+$ret = $Pinyin->TransformUcwords($str);
+var_dump($ret);
+
+
+string(40) "dài shēng diào de hàn yǔ pīn yīn "
+string(38) "wushengdiaodehanyupinyinfanpengtuandui"
+string(8) "SZMZBKHZ"
+string(14) "szmhqtzfrBq32h" 
 
 ```
 
