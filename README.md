@@ -1,5 +1,5 @@
 # yii2-chinesepinyin
-yii2版, 可以把汉子转为拼音
+yii2版, 可以获取汉字的拼音
 
 # 安装方法
 
