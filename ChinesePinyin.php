@@ -1,5 +1,5 @@
 <?php
-namespace diszz\chinesepinyin;
+namespace codecible\chinesepinyin;
 
 class ChinesePinyin{
 	
