@@ -5,9 +5,9 @@ yii2版, 可以获取汉字的拼音
 
 1.命令安装
 ``` php
-php composer.phar require diszz/yii2-chinesepinyin
+php composer.phar require codecible/yii2-chinesepinyin
 或
-composer require diszz/yii2-chinesepinyin
+composer require codecible/yii2-chinesepinyin
 ```
 
 

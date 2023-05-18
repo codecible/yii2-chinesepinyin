@@ -1,6 +1,6 @@
 {
 
-    "name": "diszz/yii2-chinesepinyin",
+    "name": "codecible/yii2-chinesepinyin",
 
 
     "type": "yii2-extension",
@@ -9,14 +9,14 @@
     "keywords": ["yii2", "chinesepinyin", "pinyin", "helper"],
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/diszz/yii2-chinesepinyin/issues",
-        "wiki": "https://github.com/diszz/yii2-chinesepinyin/wiki",
-        "source": "https://github.com/diszz/yii2-chinesepinyin"
+        "issues": "https://github.com/codecible/yii2-chinesepinyin/issues",
+        "wiki": "https://github.com/codecible/yii2-chinesepinyin/wiki",
+        "source": "https://github.com/codecible/yii2-chinesepinyin"
     },
     "authors": [
         {
-            "name": "xulihui",
-            "email": "xulihui1985@126.com"
+            "name": "codecible",
+            "email": "codecible@qq.com"
         }
     ],
 
